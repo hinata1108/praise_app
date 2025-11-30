@@ -1,7 +1,7 @@
-export const MyPost = () => {
+export const Mypost = () => {
   return (
     <div>
-      <title>My Post</title>
+      <h1>My Post</h1>
     </div>
   );
 };

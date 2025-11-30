@@ -4,6 +4,8 @@ import App from './App'
 
 const target = document.getElementById('root')
 
-createRoot(target).render(
-    <App />
-)
+if (target) {
+    createRoot(target).render(
+        <App />
+    )
+}

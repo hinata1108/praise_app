@@ -1,7 +1,7 @@
 export const Login = () => {
   return (
     <div>
-      <title>Login</title>
+      <h1>Login</h1>
     </div>
   );
 };
