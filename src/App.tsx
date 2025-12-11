@@ -1,10 +1,10 @@
 // react-router-domのインポートを追加
 import { BrowserRouter, Link, Routes, Route } from "react-router-dom";
 
-import { Post } from "./pages/post";
-import { Login } from "./pages/login";
-import { Mypost } from "./pages/mypost";
-import { Posts } from "./pages/posts";
+import { Post } from "./frontend/pages/post";
+import { Login } from "./frontend/pages/login";
+import { Mypost } from "./frontend/pages/mypost";
+import { Posts } from "./frontend/pages/posts";
 
 function App() {
   return (
